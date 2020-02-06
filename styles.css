@@ -9,13 +9,13 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: lightslategrey;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #A874B2;
 }
 a:hover {
   color: #6633ff;
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #A874B2;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -57,8 +57,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
-  background-size: cover;
+  background: url('images/stars.jpg') no-repeat top center ;
+  background-size: auto;
   overflow: hidden;
   padding-top: 60px;
 }
@@ -70,54 +70,132 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid lightsteelblue;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(2) rotate(360deg);
+}
+header .experience-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid lightsteelblue;
+  transition: all .5s;
+}
+header .experience-image:hover {
+  transform: scale(2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: black;
+  color: lightgrey;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  opacity: 60%;
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: lightsteelblue;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: purple;
 }
-
+.experience-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 600px;
+  text-align: left;
+  background: lightsteelblue;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.experience-card:hover {
+  border-color: purple;
+}
+.interests-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 600px;
+  text-align: left;
+  background: lightsteelblue;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.interests-card:hover {
+  border-color: purple;
+}
+.timeframe {
+  color: purple;
+}
+.interest-titles {
+  color: purple;
+}
+.interest-image {
+  border-radius: 20%;
+  height: 100px;
+  width: 100px;
+  border: solid 2px purple;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 3px;
+}
+/* Float Images on Interests Page */
+.row {
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
 ul.skills {
   padding: 0;
   text-align: center;
 }
-
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: purple;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
-
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: darkslateblue;
+}
+.tech-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid purple;
+}
+.tech-world {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid purple;
 }
 
 footer {
