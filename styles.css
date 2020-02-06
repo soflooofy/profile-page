@@ -76,6 +76,17 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(2) rotate(360deg);
 }
+header .experience-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid lightsteelblue;
+  transition: all .5s;
+}
+header .experience-image:hover {
+  transform: scale(2) rotate(360deg);
+}
 .tag {
   background-color: black;
   color: lightgrey;
@@ -102,7 +113,22 @@ header .profile-image:hover {
 .card:hover {
   border-color: purple;
 }
-
+.experience-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 600px;
+  text-align: left;
+  background: lightsteelblue;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.experience-card:hover {
+  border-color: purple;
+}
+.timeframe {
+  color: purple;
+}
 ul.skills {
   padding: 0;
   text-align: center;
